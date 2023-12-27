@@ -14,9 +14,9 @@ def countdown():
             sum_of_digits = calculate_sum(ran)
             check_sum = calculate_sum(sum_of_digits)
             check_sum2 = calculate_sum(check_sum)
-            print(check_sum2)
+            print(check_sum2) # giá trị này
         elif i == 0:
-            result = random.choice(["Tài", "Xỉu"])
+            result = random.choice(["Tài", "Xỉu"]) # relate với giá trị check_sum2
             print(f"Result: {result}")
         else:
             print(f"{i:02d}")
